@@ -4,7 +4,7 @@ pipeline{
             label 'maven'
         }
     }
-enivronment {
+environment {
     PATH = "/opt/apache-maven-3.9.9/bin:$PATH"
 
 }
